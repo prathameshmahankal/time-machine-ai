@@ -1,0 +1,17 @@
+# watsonx Orchestrate ADK configuration
+# Copy this file and fill in your credentials before running.
+# Docs: https://developer.watson-orchestrate.ibm.com
+
+env: local   # Options: local (Developer Edition), staging, production
+
+# For local Developer Edition (Docker-based):
+local:
+  url: http://localhost:4321   # Default port for local Orchestrate server
+
+# For IBM Cloud:
+# cloud:
+#   url: https://api.us-south.watson-orchestrate.cloud.ibm.com
+#   api_key: ${WATSONX_API_KEY}      # Set in .env
+
+# Authentication — set these in your .env file, not here.
+# WATSONX_ORCHESTRATE_URL and WATSONX_ORCHESTRATE_TOKEN are read by mcp_server.py

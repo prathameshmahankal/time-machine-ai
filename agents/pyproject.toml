@@ -1,0 +1,13 @@
+[project]
+name = "chronos-agents"
+version = "0.1.0"
+description = "Chronos watsonx Orchestrate agent definitions and tools"
+requires-python = ">=3.11"
+dependencies = [
+    "ibm-watsonx-orchestrate-adk>=0.1.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.orchestrate]
+tools_dir = "tools"
+agents_dir = "agent_definitions"
