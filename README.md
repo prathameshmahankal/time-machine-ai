@@ -1,4 +1,6 @@
-# Chronos — Developer Intelligence Platform
+# Chronos (Time-Machine-AI) — Developer Intelligence Platform
+
+Demo Link: https://youtu.be/ppD84UtPnzE
 
 Reconstructs historical engineering decisions from codebases and predicts future failures caused by outdated assumptions.
 
