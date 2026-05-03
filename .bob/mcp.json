@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "chronos": {
+      "url": "http://localhost:8001/sse",
+      "alwaysAllow": [
+        "get_repo_info",
+        "analyze_real_file",
+        "generate_refactor",
+        "analyze_decisions",
+        "scan_for_decision_debt",
+        "get_commit_history",
+        "get_pr_context",
+        "detect_code_assumptions",
+        "validate_assumptions",
+        "compute_risk_score_tool"
+      ],
+      "disabled": false
+    }
+  }
+}
