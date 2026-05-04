@@ -1318,8 +1318,8 @@ I'll help you investigate why the IBM MCP server isn't being used during testing
  2 | 
  3 | # ── watsonx Orchestrate ─────────────────────────────────────────────────────
  4 | # Local Developer Edition (Docker): http://localhost:4321
- 5 | # IBM Cloud: https://api.us-south.watson-orchestrate.cloud.ibm.com
- 6 | WATSONX_ORCHESTRATE_URL=https://api.au-syd.watson-orchestrate.cloud.ibm.com/instances/8cf90aa2-077c-4d37-bb6e-e47c0626895a
+ 5 | # IBM Cloud: 
+ 6 | WATSONX_ORCHESTRATE_URL=
  7 | 
  8 | # Bearer token from: ~/.cache/orchestrate/credentials.yaml (local)
  9 | # Or IBM Cloud API key for cloud deployment
@@ -1421,7 +1421,7 @@ I'll help you investigate why the IBM MCP server isn't being used during testing
  82 | MCP_PORT=8001
  83 | 
  84 | # Optional: watsonx Orchestrate integration
- 85 | WATSONX_ORCHESTRATE_URL=https://api.au-syd.watson-orchestrate.cloud.ibm.com/instances/YOUR_INSTANCE_ID
+ 85 | WATSONX_ORCHESTRATE_URL=https://api.REGION.watson-orchestrate.cloud.ibm.com/instances/YOUR_INSTANCE_ID
  86 | WATSONX_ORCHESTRATE_TOKEN=YOUR_TOKEN_HERE
  87 | WATSONX_API_KEY=YOUR_API_KEY_HERE
  88 | WATSONX_AGENT_ID=YOUR_AGENT_ID_HERE
@@ -2606,7 +2606,7 @@ I understand the issue now. You're not seeing print statements because the MCP s
  7 | 
  8 | # Bearer token from: ~/.cache/orchestrate/credentials.yaml (local)
  9 | # Or IBM Cloud API key for cloud deployment
-10 | WATSONX_ORCHESTRATE_TOKEN=16jPZKWnIYTpKyIJrsYwEyp3z6sTitCK7xrbH7IW4fnH
+10 | WATSONX_ORCHESTRATE_TOKEN=
 11 | 
 12 | # ── MCP Server ──────────────────────────────────────────────────────────────
 13 | # Host/port for the Chronos MCP server (IBM Bob connects here)
